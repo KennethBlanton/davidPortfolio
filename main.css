@@ -1,0 +1,218 @@
+body {
+	color: #999;
+    font-family: arial;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    transition: padding-top .6s;
+    background:#212121;
+    margin:0;
+}
+#particles-js {
+	width:100%;
+	height:100vh;
+	position: absolute;
+    top: 0;
+}
+.container {
+	width:90%;
+	margin: 0 auto;
+}
+.introduction {
+	padding-bottom: 0;
+	height:84vh;
+	background:#212121;
+	font-size:1em;
+}
+.particles {
+		margin-top: calc(8rem + (7 - 6) * (100vw - 76.8rem)/ (110 - 76.8))
+}
+h3 {
+	font-size:calc(3rem + (4 - 3) * (100vw - 76.8rem) / (110 - 76.8));
+}
+h2 {
+	line-height: .9;
+	letter-spacing: .1rem;
+	font-size:calc(6rem + (10 - 8) * (100vw - 76.8rem)/ (110 - 76.8));
+}
+h1 {
+	margin:0;
+	line-height: .9;
+	letter-spacing: .1rem;
+	font-size:calc(5rem + (10 - 8) * (100vw - 76.8rem)/ (110 - 76.8));
+}
+h2,h3 {
+	margin:0;
+	color:#888;
+	font-weight:900;
+}
+section {
+	padding-bottom:50px;
+}
+h6 {
+	margin:0;
+}
+h5 {
+	font-weight:200;
+	font-size:1em;
+}
+h4 {
+	font-size:1.2em;
+	font-weight:400;
+}
+
+.intro {
+	padding-bottom:50px;
+	position:relative;
+	pointer-events: none;
+}
+.portfolio-items {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.project {
+	margin:.5%;
+	margin-top:0;
+	width:49%;
+	height:400px;
+	background-size:cover;
+	transform:rotate(1);
+}
+.about {
+	border-top: 1px solid #333;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.first-line {
+	display:flex;
+}
+.number {
+	color:#444;
+	margin-right: calc(3rem + (7 - 6) * (100vw - 76.8rem)/ (110 - 76.8));
+}
+.number::before {
+	content: "";
+    position: absolute;
+    border-bottom: 10px solid #444;
+    width:calc(5rem + (10 - 8) * (100vw - 76.8rem)/ (110 - 76.8) + .5em) ;
+    display: inline-block;
+    bottom:65%;
+}
+.button {
+	display: block;
+    padding: 1rem 2rem;
+    background: #111;
+    width: 120px;
+    border-radius:5px;
+    border:1px solid #ddd;
+    transition:.3s all;
+}
+.button:hover {
+	border-color:#ddd;
+	color:#fff;
+	background:#232323;
+}
+.options-intro {
+/*	text-align:right;*/
+	font-weight:200;
+}
+.project-one {
+	background-image:url('./img/fawkes.png');
+}
+.project-two {
+	background-image:url('./img/uwa.png');
+}
+.project-three {
+	background-image:url('./img/green.png');
+}
+.project-four {
+	background-image:url('./img/chef.png');
+}
+.project-five {
+	background-image:url('./img/wsj.png');
+}
+.project-six {
+	background-image:url('./img/gcc.png');
+}
+.project-seven {
+	background-image:url('./img/chavez.png');
+}
+.project-eight {
+	background-image:url('./img/cam.png');
+}
+.overlay {
+	position:relative;
+	visibility:hidden;
+	text-align:center;
+	width:100%;
+	height:101%;
+	background:black;
+	opacity:0;
+	transition:.3s all;
+}
+.project:hover .overlay {
+	visibility:visible;
+	opacity:.8;
+}
+.project:hover {
+	transform:scale(1.02);
+}
+.title, .summary {
+	color:#ddd;
+}
+.title {
+	padding-top:20px;
+}
+a {
+	all:unset;
+}
+input {
+	all:unset;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+	text-align:center;
+    width: 85%;
+    background-color: #444;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.single-project {
+	width:100%;
+	height:100%;
+}
+@media only screen and (max-width: 1100px) {
+    .project {
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
